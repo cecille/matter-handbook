@@ -15,7 +15,7 @@ ConnectivityTransports
 InteractionModel
 Discovery
 Fabric
-Commisioning
+Commissioning
 Attestation
 Security
 Thread

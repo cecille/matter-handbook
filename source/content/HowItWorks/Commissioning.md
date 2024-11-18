@@ -8,7 +8,7 @@ At a high-level, the commissioning flow can be broken down into multiple stages:
 
 ## 1 Device discovery
 
-Prior to start of the Commissioning flow, the Commissionee must start advertising itself. The Commissionee may advertise itself using any of the three [Commissionable Discovery](/howitworks/discovery/#commissionable-discovery) methods. The Commissionee must also provide the onboarding payload.
+Prior to start of the Commissioning flow, the Commissionee must start advertising itself. The Commissionee may advertise itself using any of the three [Commissionable Discovery](./Discovery.md#commissionable-discovery) methods. The Commissionee must also provide the onboarding payload.
 
 ## 2 Connect to device using PASE
 
@@ -40,7 +40,7 @@ The Commissioner configures the operational network on the Commissionee. This st
 
 ## 9 Operational discovery
 
-Once the newly commissioned node is connected to the network, the Commissioner uses [Operational Discovery](/howitworks/discovery/#operational-discovery) to find the node on the operational network. Operational discovery is the process by which commissioned nodes are found on the operational network using DNS-SD. If the Commissionee is a Wi-Fi device, it will use mDNS to discover the device.
+Once the newly commissioned node is connected to the network, the Commissioner uses [Operational Discovery](./Discovery.md#operational-discovery) to find the node on the operational network. Operational discovery is the process by which commissioned nodes are found on the operational network using DNS-SD. If the Commissionee is a Wi-Fi device, it will use mDNS to discover the device.
 
 Operational discovery helps the Commissioner and other Nodes in the network know which IP address and port the Commissionee is using.
 
