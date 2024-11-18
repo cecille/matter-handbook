@@ -9,7 +9,6 @@ This handbook is compiled from contributions from our member volunteers as a gui
 
 
 ```{toctree}
-:maxdepth: 2
 :caption: Contents
 :hidden:
 
